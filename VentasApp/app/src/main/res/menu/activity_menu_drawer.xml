@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Mi perfil" />
+        <item
+            android:id="@+id/nav_my_ads"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Mis anuncios" />
+        <item
+            android:id="@+id/nav_new_ad"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Nuevo anuncio" />
+    </group>
+
+    <item android:title="Operaciones" >
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
